@@ -1,0 +1,1 @@
+In form, change text to file type, and then you can upload a file.  Idk, uploading quotes.txt Gives me an error.
