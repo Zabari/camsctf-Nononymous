@@ -1,0 +1,4 @@
+The hint on the front page says if I remember the time I guessed the admininstrator password?
+The first thing that comes to mind is router passwords, and looking up the default router passwords yields stuff like, admin and password.
+But the password is actually: letmein
+{still_b3tter_than_princess}
