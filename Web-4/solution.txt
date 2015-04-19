@@ -1,0 +1,2 @@
+Real quick, just change the "authorized" cookie from value 0 to 1.
+{C0O0KIEEEEEE!}
