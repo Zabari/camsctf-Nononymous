@@ -1,0 +1,3 @@
+run strings on the file.  Somewhere at the top, it says something about a layer name and it's this.
+
+{h1dd3n_from_vew}
