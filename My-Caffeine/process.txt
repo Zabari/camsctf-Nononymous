@@ -2,5 +2,6 @@ Commands to control a coffee pot are sent from client to coffee server using eit
 Sending 23 using a POST command says that the coffee is beginnning to be made, and milk is added.  
 Subsequent refreshes of the page say still adding milk.
 A WHEN request must be sent, but idk how to send it.
-Got it to sned, ended up with this string:
+Got it to send, ended up with this string:
+(post.py Will do it for you, btw)
 +c70Xz/73+4riCRCllkBKm5MClqoTv7CUOJYtrS5LL8=
