@@ -1,3 +1,4 @@
 Commands to control a coffee pot are sent from client to coffee server using either the BREW or POST method, and a message body with Content-Type set to "application/coffee-pot-command".
 Sending 23 using a POST command says that the coffee is beginnning to be made, and milk is added.  
 Subsequent refreshes of the page say still adding milk.
+A WHEN request must be sent, but idk how to send it.
