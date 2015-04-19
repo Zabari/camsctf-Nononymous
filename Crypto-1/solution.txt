@@ -1,0 +1,5 @@
+Convert from binary to ascii.
+I think I'm being watched. For now, Mr. Browning, let us communicate in {7h1s_1np3n37r3bl3_c0d3}. 
+Ninteenus Out. 
+Flag:
+{7h1s_1np3n37r3bl3_c0d3}

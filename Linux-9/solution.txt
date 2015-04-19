@@ -1,0 +1,3 @@
+Go into home directory, right click open as root, type in password, open flag folder, and flag.txt
+Flag:
+{r00t_0nlY}
