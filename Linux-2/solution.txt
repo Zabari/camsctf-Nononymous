@@ -1,0 +1,9 @@
+Opening up the vm, and then the background image in the gimp home folder, gives us layers.  In one of them we find the flag.
+{WELC0ME_T0_L1NUX}
+(The zeroes and Os might be off, but I think I'm right)
+
+We also find:
+
+linuxuser123
+pass: qpwo
+

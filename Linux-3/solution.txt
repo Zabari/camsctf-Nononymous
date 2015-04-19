@@ -1,0 +1,3 @@
+On Desktop of user cs, there's this folder called 2.  Grepping for an open bracket gives you:
+{l00king_4rouNd_3H?}
+

@@ -1,0 +1,2 @@
+Opening up the home foler yields a help.txt, they need to load the drive. Press on the drive, it'll ask for cs account's password, cctf.  Type it in, and you'll find flag.txt.
+{br0ken_fstab}
