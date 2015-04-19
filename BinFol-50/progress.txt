@@ -1,0 +1,3 @@
+The description of the challenge is written in binary.
+after we convert it ASCII we simply get:
+Binary Folders?
