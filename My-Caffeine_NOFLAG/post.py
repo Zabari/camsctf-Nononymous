@@ -15,20 +15,9 @@ req=Request('WHEN',  url,
 prepped = s.prepare_request(req)
 res=s.send(prepped)
 print res.text
-req = Request('GET',  url,
+req = Request('PROPFIND',  url,
     headers=headers
 )
 prepped = s.prepare_request(req)
 res=s.send(prepped)
 print res.text
-
-headers={"Content-Type":"+c70Xz/73+4riCRCllkBKm5MClqoTv7CUOJYtrS5LL8=", "cookie":"PHPSESSID=2537527762","Content-Type":"application/coffee-pot-command"}
-
-req = Request('GET',  url,
-    headers=headers,
-	data="23"
-)
-prepped = s.prepare_request(req)
-res=s.send(prepped)
-print res.text
-
