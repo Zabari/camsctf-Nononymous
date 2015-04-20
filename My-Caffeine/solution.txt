@@ -5,3 +5,8 @@ A WHEN request must be sent, but idk how to send it.
 Got it to send, ended up with this string:
 (post.py Will do it for you, btw)
 +c70Xz/73+4riCRCllkBKm5MClqoTv7CUOJYtrS5LL8=
+Then send a PROPFIND request.
+AES-Encryption: SxKgRaqX; Brew-time: 1429493440
+Decrypt and flag:
+{htcpcp_iz_s0_real}
+
