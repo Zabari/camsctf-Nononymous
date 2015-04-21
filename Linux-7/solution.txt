@@ -1,0 +1,3 @@
+Open up firefox, restore previous session.
+flag:
+{l0calh0sts}
