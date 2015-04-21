@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://play.camsctf.com/challenges/#60 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Challenges - CCTF</title>
+		<link rel="apple-touch-icon" sizes="57x57" href="http://play.camsctf.com/static/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="http://play.camsctf.com/static/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="http://play.camsctf.com/static/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="http://play.camsctf.com/static/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="http://play.camsctf.com/static/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="http://play.camsctf.com/static/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="http://play.camsctf.com/static/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="http://play.camsctf.com/static/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://play.camsctf.com/static/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="http://play.camsctf.com/static/favicon-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="http://play.camsctf.com/static/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="http://play.camsctf.com/static/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="http://play.camsctf.com/static/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="http://play.camsctf.com/static/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#4caf50">
+		<meta name="msapplication-TileImage" content="/static/mstile-144x144.png">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<meta name="theme-color" content="#1B5E20">
+		<link type="text/css" rel="stylesheet" href="./Challenges - CCTF_files/materialize.min.css" media="screen,projection">
+	</head>
+
+	<body>
+		<header>
+			<nav role="navigation">
+				<div class="nav-wrapper container">
+					<a href="http://play.camsctf.com/" class="brand-logo"><img src="./Challenges - CCTF_files/mstile-144x144.png"></a>
+					<ul class="right hide-on-med-and-down">
+						
+						<li><a href="http://play.camsctf.com/">Home</a></li>
+						<li><a href="http://play.camsctf.com/scoreboard">Scoreboard</a></li>
+						<li><a href="http://play.camsctf.com/challenges">Challenges</a></li>
+						<li><a href="http://play.camsctf.com/interact">Interact</a></li>
+						<li><a href="http://play.camsctf.com/account">Account</a></li>
+						
+						<li><a href="http://play.camsctf.com/irc">IRC</a></li>
+						<li><a class="mdi-action-info-outline modal-trigger" href="http://play.camsctf.com/challenges/#helpmodal"></a></li>
+					</ul>
+					<ul id="nav-mobile" class="side-nav" style="left: -250px;">
+						
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/">Home</a></li>
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/scoreboard">Scoreboard</a></li>
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/challenges">Challenges</a></li>
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/interact">Interact</a></li>
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/account">Account</a></li>
+						
+						<li><a class="waves-effect waves-indigo" href="http://play.camsctf.com/irc">IRC</a></li>
+						<li><a class="waves-effect waves-indigo modal-trigger" href="http://play.camsctf.com/challenges/#helpmodal"><i class="mdi-action-info-outline"></i></a></li>
+					</ul>
+					<a class="button-collapse" href="http://play.camsctf.com/challenges/#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+				</div>
+			</nav>
+		</header>
+		
+		
+		<main>
+			<div class="container">
+				<h2 class="center green-text">Challenges</h2>
+				<div class="row">
+					<p class="center">Your team has solved <b id="count">30</b> challenge(s).</p>
+				</div>
+				
+				<div class="row">
+					<div class="col s12">
+						<ul class="tabs z-depth-1" style="width: 100%;">
+							<li class="tab col s6" style="width: 50%;"><a class="" href="http://play.camsctf.com/challenges/#chal-view">Challenge</a></li>
+							<li class="tab col s6" style="width: 50%;"><a href="http://play.camsctf.com/challenges/#solve-view" class="active">Solve</a></li>
+						<div class="indicator" style="right: -1px; left: 510px;"></div></ul>
+					</div>
+				</div>
+				
+				<br>
+	
+				<div id="chal-view" style="display: none;">
+					<div class="valign-wrapper" style="display: none;">
+						<div class="progress">
+							<div class="indeterminate"></div>
+						</div>
+					</div>
+					<ul class="collapsible z-depth-2" data-collapsible="accordion" id="data" style=""><li><div class="collapsible-header"><i class="mdi-communication-vpn-key"></i>Cryptography - 3/19</div><div class="collapsible-body" style=""><div class="collection"><a href="http://play.camsctf.com/challenges/9" id="challenge" class="green lighten-5 collection-item">Crypto 1<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/10" id="challenge" class="green lighten-5 collection-item">Crypto 2<span class="badge">15</span></a><a href="http://play.camsctf.com/challenges/11" id="challenge" class="green lighten-5 collection-item">Crypto 3<span class="badge">25</span></a><a href="http://play.camsctf.com/challenges/12" id="challenge" class="white collection-item">Crypto 4<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/13" id="challenge" class="white collection-item">Crypto 5<span class="badge">75</span></a><a href="http://play.camsctf.com/challenges/14" id="challenge" class="white collection-item">Crypto 6<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/15" id="challenge" class="white collection-item">Crypto 7<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/16" id="challenge" class="white collection-item">Crypto 8<span class="badge">100</span></a><a href="http://play.camsctf.com/challenges/17" id="challenge" class="white collection-item">Crypto 9<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/18" id="challenge" class="white collection-item">Crypto A<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/19" id="challenge" class="white collection-item">Crypto B<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/20" id="challenge" class="white collection-item">Crypto C<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/21" id="challenge" class="white collection-item">Crypto D<span class="badge">300</span></a><a href="http://play.camsctf.com/challenges/22" id="challenge" class="white collection-item">Crypto E<span class="badge">600</span></a><a href="http://play.camsctf.com/challenges/23" id="challenge" class="white collection-item">Crypto F-1<span class="badge">225</span></a><a href="http://play.camsctf.com/challenges/24" id="challenge" class="white collection-item">Crypto F-2<span class="badge">225</span></a><a href="http://play.camsctf.com/challenges/25" id="challenge" class="white collection-item">Crypto F-3<span class="badge">225</span></a><a href="http://play.camsctf.com/challenges/26" id="challenge" class="white collection-item">Crypto F-4<span class="badge">225</span></a><a href="http://play.camsctf.com/challenges/45" id="challenge" class="white collection-item">MmMmMm<span class="badge">200</span></a></div></div></li><li><div class="collapsible-header"><i class="mdi-hardware-security"></i>Exploitation - 4/16</div><div class="collapsible-body" style=""><div class="collection"><a href="http://play.camsctf.com/challenges/29" id="challenge" class="white collection-item">Give Me Flag<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/70" id="challenge" class="green lighten-5 collection-item">Web 1<span class="badge">15</span></a><a href="http://play.camsctf.com/challenges/71" id="challenge" class="green lighten-5 collection-item">Web 2<span class="badge">30</span></a><a href="http://play.camsctf.com/challenges/72" id="challenge" class="green lighten-5 collection-item">Web 3<span class="badge">40</span></a><a href="http://play.camsctf.com/challenges/73" id="challenge" class="green lighten-5 collection-item">Web 4<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/74" id="challenge" class="white collection-item">Web 5<span class="badge">80</span></a><a href="http://play.camsctf.com/challenges/75" id="challenge" class="white collection-item">Web 6<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/76" id="challenge" class="white collection-item">Web 7<span class="badge">120</span></a><a href="http://play.camsctf.com/challenges/77" id="challenge" class="white collection-item">Web 8<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/78" id="challenge" class="white collection-item">Web 9<span class="badge">175</span></a><a href="http://play.camsctf.com/challenges/79" id="challenge" class="white collection-item">Web A<span class="badge">240</span></a><a href="http://play.camsctf.com/challenges/80" id="challenge" class="white collection-item">Web B<span class="badge">300</span></a><a href="http://play.camsctf.com/challenges/81" id="challenge" class="white collection-item">Web C<span class="badge">400</span></a><a href="http://play.camsctf.com/challenges/82" id="challenge" class="white collection-item">Web D<span class="badge">475</span></a><a href="http://play.camsctf.com/challenges/83" id="challenge" class="white collection-item">Web E<span class="badge">475</span></a><a href="http://play.camsctf.com/challenges/84" id="challenge" class="white collection-item">Web F<span class="badge">500</span></a></div></div></li><li><div class="collapsible-header"><i class="mdi-action-search"></i>Forensics - 9/23</div><div class="collapsible-body" style=""><div class="collection"><a href="http://play.camsctf.com/challenges/5" id="challenge" class="white collection-item">Carve<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/27" id="challenge" class="white collection-item">Excel Data<span class="badge">30</span></a><a href="http://play.camsctf.com/challenges/28" id="challenge" class="white collection-item">Filezilla<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/30" id="challenge" class="white collection-item">Helix<span class="badge">20</span></a><a href="http://play.camsctf.com/challenges/32" id="challenge" class="white collection-item">ISO 32000-1<span class="badge">300</span></a><a href="http://play.camsctf.com/challenges/33" id="challenge" class="green lighten-5 collection-item">Linux 1<span class="badge">15</span></a><a href="http://play.camsctf.com/challenges/34" id="challenge" class="green lighten-5 collection-item">Linux 2<span class="badge">35</span></a><a href="http://play.camsctf.com/challenges/35" id="challenge" class="green lighten-5 collection-item">Linux 3<span class="badge">20</span></a><a href="http://play.camsctf.com/challenges/36" id="challenge" class="white collection-item">Linux 4<span class="badge">25</span></a><a href="http://play.camsctf.com/challenges/37" id="challenge" class="green lighten-5 collection-item">Linux 5<span class="badge">100</span></a><a href="http://play.camsctf.com/challenges/38" id="challenge" class="green lighten-5 collection-item">Linux 6<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/39" id="challenge" class="white collection-item">Linux 7<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/40" id="challenge" class="green lighten-5 collection-item">Linux 8<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/41" id="challenge" class="green lighten-5 collection-item">Linux 9<span class="badge">200</span></a><a href="http://play.camsctf.com/challenges/43" id="challenge" class="white collection-item">Memorize<span class="badge">500</span></a><a href="http://play.camsctf.com/challenges/47" id="challenge" class="white collection-item">Murinae Mus<span class="badge">300</span></a><a href="http://play.camsctf.com/challenges/48" id="challenge" class="green lighten-5 collection-item">My Background<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/51" id="challenge" class="white collection-item">Psst<span class="badge">160</span></a><a href="http://play.camsctf.com/challenges/58" id="challenge" class="green lighten-5 collection-item">Redacted<span class="badge">60</span></a><a href="http://play.camsctf.com/challenges/60" id="challenge" class="white collection-item">Steg 1<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/61" id="challenge" class="white collection-item">Steg 2<span class="badge">65</span></a><a href="http://play.camsctf.com/challenges/1" id="challenge" class="white collection-item">Streaming 1<span class="badge">75</span></a><a href="http://play.camsctf.com/challenges/2" id="challenge" class="white collection-item">Streaming 2<span class="badge">200</span></a></div></div></li><li class="active"><div class="collapsible-header active"><i class="mdi-social-share"></i>Miscellaneous - 3/7</div><div class="collapsible-body" style="display: block;"><div class="collection"><a href="http://play.camsctf.com/challenges/8" id="challenge" class="green lighten-5 collection-item">Cropped<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/31" id="challenge" class="white collection-item">Impossible Salt<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/44" id="challenge" class="green lighten-5 collection-item">Miscellaneous 1<span class="badge">5</span></a><a href="http://play.camsctf.com/challenges/49" id="challenge" class="green lighten-5 collection-item">My Caffeine<span class="badge">200</span></a><a href="http://play.camsctf.com/challenges/59" id="challenge" class="white collection-item">Secret Challenge<span class="badge">150</span></a><a href="http://play.camsctf.com/challenges/62" id="challenge" class="white collection-item">Survey<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/68" id="challenge" class="white collection-item">True CTF Player<span class="badge">100</span></a></div></div></li><li><div class="collapsible-header"><i class="mdi-editor-mode-edit"></i>Programming - 2/11</div><div class="collapsible-body" style=""><div class="collection"><a href="http://play.camsctf.com/challenges/3" id="challenge" class="white collection-item">Assemble<span class="badge">210</span></a><a href="http://play.camsctf.com/challenges/4" id="challenge" class="white collection-item">BinFol<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/6" id="challenge" class="white collection-item">Cerebrum<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/7" id="challenge" class="white collection-item">Colorful Program<span class="badge">80</span></a><a href="http://play.camsctf.com/challenges/42" id="challenge" class="white collection-item">Loop<span class="badge">120</span></a><a href="http://play.camsctf.com/challenges/46" id="challenge" class="white collection-item">Much Blur<span class="badge">350</span></a><a href="http://play.camsctf.com/challenges/50" id="challenge" class="white collection-item">Mysterious Picture<span class="badge">65</span></a><a href="http://play.camsctf.com/challenges/52" id="challenge" class="green lighten-5 collection-item">Python 1<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/53" id="challenge" class="green lighten-5 collection-item">Python 2<span class="badge">250</span></a><a href="http://play.camsctf.com/challenges/69" id="challenge" class="white collection-item">Video Decoding<span class="badge">125</span></a><a href="http://play.camsctf.com/challenges/85" id="challenge" class="white collection-item">Xorcise<span class="badge">500</span></a></div></div></li><li><div class="collapsible-header green lighten-5"><i class="mdi-action-explore"></i>Reconnaissance - 9/9</div><div class="collapsible-body" style=""><div class="collection"><a href="http://play.camsctf.com/challenges/54" id="challenge" class="green lighten-5 collection-item">Recon 1<span class="badge">25</span></a><a href="http://play.camsctf.com/challenges/55" id="challenge" class="green lighten-5 collection-item">Recon 2<span class="badge">50</span></a><a href="http://play.camsctf.com/challenges/56" id="challenge" class="green lighten-5 collection-item">Recon 3<span class="badge">75</span></a><a href="http://play.camsctf.com/challenges/57" id="challenge" class="green lighten-5 collection-item">Recon 4<span class="badge">100</span></a><a href="http://play.camsctf.com/challenges/63" id="challenge" class="green lighten-5 collection-item">Trivia 1<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/64" id="challenge" class="green lighten-5 collection-item">Trivia 2<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/65" id="challenge" class="green lighten-5 collection-item">Trivia 3<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/66" id="challenge" class="green lighten-5 collection-item">Trivia 4<span class="badge">10</span></a><a href="http://play.camsctf.com/challenges/67" id="challenge" class="green lighten-5 collection-item">Trivia 5<span class="badge">10</span></a></div></div></li></ul>
+					<br>
+				</div>
+			
+				<div id="solve-view" style="display: block;">
+					<div class="row">
+						<div class="col s12 m10 l8 offset-m1 offset-l2">
+							<div class="card z-depth-2">
+								<div class="card-content">
+									<span class="card-title black-text" id="title">Secret Challenge - 150</span>
+									<div class="black-text" id="description">
+	<p>Search the infrastructure. A flag could be hiding somewhere.</p>
+	<p style="display:none">hypertext access?</p>
+	</div>
+								</div>
+								<div class="card-action">
+									<span class="black-text">Solves: <span id="solves">3</span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<form class="col s12" action="http://play.camsctf.com/api/challenges/submit/">
+						<div class="row">
+							<div class="input-field col s12 m10 l8 offset-m1 offset-l2">
+								<i class="mdi-content-flag prefix"></i>
+								<input id="icon_prefix" name="flag" type="text" class="validate">
+								<label for="icon_prefix">Flag</label>
+							</div>
+						</div>
+						<input type="hidden" name="id" value="59">
+						<div class="row">
+							<div class="col s12 center">
+								<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+									<i class="mdi-content-send right"></i>
+								</button>
+							</div>
+						</div>
+						<input type="hidden" name="csrfmiddlewaretoken" value="u1U3ZjgYwdjmP9pLbLPlTTTc3EhGTrPm">
+					</form>
+				</div>
+			</div>
+		</main>
+		
+		<div id="helpmodal" class="modal">
+			<div class="modal-content">
+				<h4>Challenges Help</h4>
+				<p>This is the area where you will spend a majority of your time. Please peruse the <a target="_blank" href="http://play.camsctf.com/readme/#challenges">read me</a> for more information! Double click/tap the challenge tab to force refresh challenges. Something seriously messed up about the challenge page? - <a href="http://play.camsctf.com/challenges/#" id="clear-cache">clear persistent cache</a>.</p>
+				<br>
+				<h5>Sort Order</h5>
+				<p>
+					<input name="sortorder" type="radio" id="order1" data-sort="title">
+					<label for="order1" class="black-text">Alphabetical</label>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input name="sortorder" type="radio" id="order2" data-sort="score">
+					<label for="order2" class="black-text">Score/Value</label>
+				</p>
+			</div>
+			<div class="modal-footer">
+				<button class="waves-effect waves-light btn modal-action modal-close">Got it</button>
+			</div>
+		</div>			
+
+		
+		<footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">CAMS CTF</h5>
+						<p class="grey-text text-lighten-4">A Capture the Flag competition created by the California Academy of Mathematics and Science for middle and high school students.</p>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Pages</h5>
+						<ul>
+							<li><a class="white-text" href="http://play.camsctf.com/">Home</a>
+							</li>
+							<li><a class="white-text" href="http://play.camsctf.com/challenges">Challenges</a>
+							</li>
+							<li><a class="white-text" href="http://play.camsctf.com/readme">Read Me</a>
+							</li>
+							<li><a class="white-text" href="http://camsctf.com/">CCTF Home</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="https://github.com/CAMSCSC">Github</a>
+							</li>
+							<li><a class="white-text" href="https://www.facebook.com/groups/1418538045055499/">Facebook</a>
+							</li>
+							<li><a class="white-text" href="mailto:contact@camsctf.com">Email</a>
+							</li>
+							<li><a class="white-text" href="http://camscsc.org/">CAMS CSC</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© CCTF 2015 | Made with <a class="grey-text text-lighten-2" href="http://materializecss.com/">MaterializeCSS</a>
+					<a class="grey-text text-lighten-2 right" href="http://play.camsctf.com/license">MIT License</a>
+				</div>
+			</div>
+		</footer>
+		
+		<script async="" src="./Challenges - CCTF_files/analytics.js"></script><script type="text/javascript" src="./Challenges - CCTF_files/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="./Challenges - CCTF_files/materialize.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-59224610-2', 'auto');ga('send', 'pageview');
+		</script>
+		
+		<script type="text/javascript" src="./Challenges - CCTF_files/challenge.js"></script><div class="drag-target" style="left: 0px; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div>
+
+	<script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+	
+<div class="hiddendiv common"></div></body></html>
