@@ -1,4 +1,4 @@
-This was relatively simply SQL injection.
+This was relatively simple SQL injection.
 You were prompted for both the username and password when you visited the site.
 My response were:
 
