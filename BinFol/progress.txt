@@ -1,0 +1,8 @@
+The description of the challenge is written in binary.
+After we convert it ASCII we simply get:
+Binary Folders?
+Extract the zip, notice some folders are missing.  Treat missing ones as 0, and present ones as 1.  Start at 0, end at 111.
+Running the script gives you 0111101100110000010011100100010101011111010110100100010101010010001100000101111100110000010011100100010101111101
+.
+Decoding gives you flag:
+{0NE_ZER0_0NE}
