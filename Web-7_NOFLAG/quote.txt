@@ -1,5 +1,0 @@
-"Hello World! This is my first website." - M4gn4te Troll
-"My security is superior. Your hacking skills are inferior." - M4gn4te Troll
-"Let's play a game. When you get your score to go over 9000, I will give you the flag. Your current score is 3.14." - M4gn4te Troll
-"My biscuit says you are not authorized." - M4gn4te Troll
-"Getting the flag is easy. All you need to do is hack Google, pretend to be a crawler from Google, crawl onto the NSA website, hack the site, then have the site redirect the crawler to this page." - M4gn4te Troll

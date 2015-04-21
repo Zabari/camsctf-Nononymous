@@ -1,0 +1,5 @@
+Send a post request to http://web.camsctf.com/7/read.pl.  You notice that by adding the %00 null character you can effectively stop the perl script from adding the .txt at the end.
+Looking at .htaccess (through request) shows that flag.png exists. 
+Had to write python script to save the file as image, but it is done.
+Flag:
+{perl_1z_1n_c_t00}
