@@ -1,0 +1,7 @@
+So we start off with a text file filled with presumingly hexadecimal.
+I converted it to ASCII and saved it as flag_1.class
+That raised this error when I ran it, <Incompatible magic value 3280651198 in class file givemeflag>
+So I changed the header bytes to CA FE BA BE and tried running it again, this time I saved it as 
+flag_2.class, and it raised this error < java.lang.UnsupportedClassVersionError: givemeflag : Unsupported major.minor version 49854.49850>
+It's supposed to have something to do with my PATH variable but I didn't find anything.
+I also tried to decompile the .class file, but that didn't work either :'(
