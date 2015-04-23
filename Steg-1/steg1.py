@@ -4,7 +4,7 @@
 from stegano import slsb
 print slsb.reveal('steg1.png') # --> {w0w_st3g_s0_hArD}
 
-#The harder way, credits to CAMS CSC for the code
+#The harder way (but dont have to install module), credits to CAMS CSC for the code,
 '''
 from PIL import Image
 
